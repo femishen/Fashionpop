@@ -1,0 +1,30 @@
+.cart-page {
+  padding: 80px 100px;
+  background: #fffaf4;
+  min-height: 100vh;
+}
+
+.cart-item {
+  display: flex;
+  justify-content: space-between;
+  padding: 14px;
+  background: white;
+  border-radius: 14px;
+  margin-bottom: 12px;
+}
+
+.cart-total {
+  margin-top: 20px;
+  font-size: 18px;
+}
+
+.checkout-btn {
+  margin-top: 30px;
+  padding: 14px 28px;
+  background: #ff4fa3;
+  color: white;
+  border: none;
+  border-radius: 30px;
+  font-size: 16px;
+  cursor: pointer;
+}

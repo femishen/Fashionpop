@@ -1,0 +1,136 @@
+/* INFO BAR */
+.info-bar {
+  display: flex;
+  justify-content: space-around;
+  padding: 40px 100px;
+  background: #ffffff;
+  border-bottom: 1px solid #eee;
+  font-family: "Poppins", sans-serif;
+}
+
+.info-item {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+
+.info-icon {
+  font-size: 28px;
+  background: #ffe6f1;
+  padding: 14px;
+  border-radius: 50%;
+}
+
+.info-item h4 {
+  font-size: 16px;
+  color: #2b1b3d;
+}
+
+.info-item p {
+  font-size: 14px;
+  color: #7a728a;
+}
+
+/* CATEGORY SECTION */
+.category-section {
+  padding: 100px;
+  background: #fffaf4;
+  text-align: center;
+  font-family: "Poppins", sans-serif;
+}
+
+.category-section h2 {
+  font-size: 36px;
+  color: #2b1b3d;
+}
+
+.subtitle {
+  margin-top: 10px;
+  font-size: 16px;
+  color: #7a728a;
+}
+
+/* GRID */
+.category-grid {
+  margin-top: 60px;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 30px;
+}
+
+/* CARDS */
+.category-card {
+  border-radius: 28px;
+  padding: 40px 30px;
+  text-align: left;
+  position: relative;
+  overflow: hidden;
+  min-height: 300px;
+}
+
+.category-card h3 {
+  margin-top: 30px;
+  font-size: 24px;
+  color: #2b1b3d;
+}
+
+.category-card p {
+  margin: 10px 0 20px;
+  color: #6f687f;
+}
+
+.shop-link {
+  color: #ff4fa3;
+  font-weight: 500;
+  cursor: pointer;
+}
+
+/* EMOJI */
+.emoji {
+  font-size: 48px;
+}
+
+/* BACKGROUNDS */
+.women {
+  background: #efe3f7;
+}
+
+.men {
+  background: #d8f0f9;
+}
+
+.kids {
+  background: #d9f6e6;
+}
+
+.infant {
+  background: #ffdccc;
+}
+
+@media (max-width: 768px) {
+  .info-bar {
+    flex-direction: column;
+    gap: 24px;
+    padding: 30px 20px;
+  }
+
+  .category-section {
+    padding: 60px 20px;
+  }
+
+  .category-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .category-card {
+    min-height: 260px;
+  }
+}
+
+.category-card,
+.category-card:hover,
+.category-card:visited,
+.category-card:active {
+  text-decoration: none;
+  color: inherit;
+}

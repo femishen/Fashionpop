@@ -1,0 +1,28 @@
+.category-page {
+  padding: 40px 60px;
+}
+
+.category-page h2 {
+  margin-bottom: 30px;
+}
+
+/* FLEX LAYOUT */
+.product-flex {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+  justify-content: center;
+}
+
+/* Responsive */
+@media (max-width: 1200px) {
+  .product-grid {
+    grid-template-columns: repeat(2, 280px);
+  }
+}
+
+@media (max-width: 768px) {
+  .product-grid {
+    grid-template-columns: 280px;
+  }
+}
